@@ -338,3 +338,52 @@ sort duplicate.txt | uniq
 # try :
 uniq -uc
 #then type your text and get unique values 
+
+
+#--------------
+#'wc' and 'nl' :-
+#--------------
+
+#The wc (word count) command shows the total count of words in a file
+
+wc /etc/passwd
+#It display the number of lines, 
+#number of words and number of bytes, respectively.
+
+#To just see just the count of a certain field,
+# use the -l, -w, or -c for lines , words and number of bytes respectively.
+wc -l /etc/passwd
+
+# a command can use to check the count of lines on a file is 
+#the nl (number lines) command.
+
+nl /etc/passwd
+
+#------------
+# 16. grep : 
+#----------
+
+# the most common text processing command ,
+# It allows you to search files for characters 
+# that match a certain pattern. if a file existed in a certain directory or 
+# if you wanted to see if a string was found in a file?
+
+grep fox sample.txt
+
+ #You can also grep patterns
+ # that are case insensitive with the -i flag:
+
+grep -i somepattrn somefile
+  #pattern name and filename
+
+# grep can be combine it with other commands with '|'
+
+env | grep -i user 
+#it will only gives the text which only contains user word
+
+#grep is pretty versatile.
+# with it You can even use regular expressions in your pattern:
+
+ls /somedir | grep '.txt$'
+
+#it  return all files ending with .txt in somedir.
