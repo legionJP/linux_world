@@ -190,12 +190,151 @@ paste -d ' ' -s sample2.txt
 head /var/log/syslog
 
 #can also modify the line count to whatever you choose
-
+ uk,8
 head -n 15 /var/log/syslog #line count
 
 head -c 15 /var/log/syslog # character count
 
 
 #------------------------------
-# tail : 
-#------------------------------
+# tail : the tail command lets you see the last 10 lines of a file by default.
+#------------------------------`        
+
+tail /var/logsyslog
+
+#to see the number of lines
+tail -n 10 /var/log/syslog
+
+#you can use is the -f (follow) flag, this will follow the file as it grows.
+
+tail -f /var/log/syslog
+
+#Note : if  Your syslog file will be continually changing 
+#while you interact with your system and using tail -f 
+#you can see everything that is getting added to that file.
+
+
+#try this 
+man tail
+
+#------------------------
+#10. expand and unexpand :
+#------------------------
+
+#To change your TABs to spaces, use the expand command.
+# This commmand will print output with each TAB converted into groups of spaces.
+
+expand sample.txt
+
+#Saving the output by redirection
+
+expand sample.txt > result.txt
+
+# convert back each group of spaces to a TAB with unexpand command :
+
+unexpand -a result.txt
+
+#------------------------
+#11. Join and Spilit :
+#---------------------
+
+#this command allows to join the multiples file together by common field:
+ 
+join file1.txt file2.txt
+
+#above files  are joined together by the first field by default and the fields have to be identical, 
+#if they are not you can sort them,
+# so in this case the files  fileds are indentical so they are joined via 1, 2, 3.
+
+\\
+file1.txt
+
+John 1
+
+Jane 2
+
+Mary 3
+
+
+file2.txt
+
+1 Doe
+
+2 Doe
+
+3 Sue
+\\
+
+# joinng the above file you need to specify which fileds u are joining , here we want to join field 2 on 
+# file1.txt and filed 1 on file2.txt so 
+
+join -1 2 -2 1 file1.txt file2.txt
+
+#here -1 refers to file1.txt and -2 file2.txt
+
+#-----------
+# Split :
+#----------
+
+split result.txt
+
+#this will split it into different files, 
+#by default it will split them once they reach a 1000 line limit. The files are named x** (xaa) by default.
+
+#-----------
+#12. sort: this command is used to sorting the files 
+#----------
+
+sort result.txt
+
+#revrse sort 
+
+sort -r result.txt
+
+# Sort by numerical value 
+sort -n result.txt
+
+# real use comes when sort command to be combined with other commands,
+
+ls /etc | sort -rn
+
+#----------
+#13. tr(Translate)
+#----------
+
+#tr (translate) command allows you to translate a set of characters into another set of characters. 
+tr a-z A-Z
+# then type : hello -- "HELLO"
+
+#if we want remove the some words/char from like from "hello" we only want "h" then\
+
+tr -d ello
+# type hello result will be 'h'
+
+#-----------------
+#14. uniq (Unique)
+#-----------------
+
+#The uniq (unique) command is another useful tool for parsing text
+
+
+uniq duplicate.txt
+
+#the count of how many occurrences of a line:
+uniq -c duplicate.txt
+
+#Let's just get unique values:
+uniq -u duplicate.txt
+
+# Let's just get duplicate values:
+uniq -d duplicate.txt
+
+
+#uniq does not detect duplicate lines unless they are adjacent
+#overcome this limitation of uniq we can use sort in combination with uniq:
+
+sort duplicate.txt | uniq
+
+# try :
+uniq -uc
+#then type your text and get unique values 
