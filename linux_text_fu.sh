@@ -386,4 +386,4 @@ env | grep -i user
 
 ls /somedir | grep '.txt$'
 
-#it  return all files ending with .txt in somedir.
+#it return all files ending with .txt in somedir.
