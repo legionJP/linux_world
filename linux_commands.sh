@@ -186,9 +186,9 @@ history
 clear
 
 #-----------------------
-#9. cp(Copy)
+#10. cp(Copy)
 #------------------------
-)
+
 cp myfile /home/jp/Documents
 
 # mycoolfile is the file 
@@ -230,7 +230,7 @@ cp -i myfile /home/jp/Pictures
 
 
 #-----------------------
-#9. mv(Move)
+#11. mv(Move)
 #------------------------
 
 # Used for moving files and also renaming them
@@ -256,3 +256,129 @@ mv -i  directory1 directory2
 # You can also make a backup of that file and it will just rename the old version with a ~.
 
 mv -b directory1 directory2
+
+
+#-----------------------
+# 12. mkdir (Make Directory)
+#------------------------
+
+# it will create a directory if it doesn’t already exist. 
+# You can even make multiple directories at the same time.
+
+mkdir notes books
+
+# also create subdirectories at the same time with the -p (parent flag).
+
+mkdir -p notes/books/favorites
+
+#-----------------------
+# 13. rm (Remove)
+#------------------------
+
+rm file1
+
+# Write-protected files will prompt you for confirmation before deleting them.
+#  If a directory is write-protected it will also not be easily removed.
+
+rm -f file1
+
+# -f or force option tells rm to remove all files, whether they are write protected or not, 
+
+rm -i file
+
+# Adding the -i flag like many of the other commands, 
+# will give you a prompt on whether you want to actually remove the files or directories
+
+rm -r directory
+
+# You can’t just rm a directory by default,
+# you’ll need to add the -r flag (recursive) to remove all the files and any subdirectories it may have
+
+rmdir directory
+
+# You can remove a directory with the rmdir command
+
+#-----------------------
+# 14. find
+#------------------------
+
+# among all the files we have on the system, if we want  try to 
+# find a specific one, the command is 
+
+find /home -name image.jpg
+
+# You can specify what type of file you are trying to find.
+# I’m trying to find as (d) for directory and I’m still searching by the name of MyFolder.
+find /home -type d -name Linux_Repo
+
+
+#-----------------------
+# 15. help 
+#------------------------
+
+# One tool, help, is a built-in bash command 
+# that provides help for other bash commands (echo, logout, pwd, etc).
+
+help echo
+# This will give you a description 
+# and the options you can use when you want to run echo.
+
+echo --help
+
+# For other executable programs, it’s convention to have an 
+#  option called --help or something similar.
+# it's probably your best shot to find some help on a program.
+
+#--------------------
+#16. man
+#--------------------
+
+# do you wish some of these programs had a manual so we can see 
+# some more information about them. Well luckily they do! 
+man ls 
+
+
+# Man pages are manuals that are by default built into most 
+# Linux operating systems. 
+# They provide documentation about commands and other aspects of the system.
+
+#--------------------
+#17. whatis
+#--------------------
+
+# if you are ever feeling doubtful about what a command does,
+# you can use the whatis command, it provides a brief description of command line programs.
+
+what is cat
+
+#--------------------
+#18. alias
+#--------------------
+
+# if you need to type a long command many times, 
+# t’s best to have an alias you can use for that. 
+
+# To create an alias for a command you simply specify an alias name 
+# and set it to the command.
+
+alias foobar = 'ls -la'
+# Now you  can type foobar and it will execute that command, 
+
+# to use it after boot you'll need to add a permanent alias in:
+
+~/.bashrc
+
+#You can remove aliases with the unalias command:
+unalias foobar
+
+#--------------------
+#19. exit
+#--------------------
+
+# To take a brake  exit from the shell, you can use the exit command
+
+exit 
+
+#or logout command
+
+logout 

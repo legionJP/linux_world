@@ -1,0 +1,6 @@
+book
+book
+paper
+paper
+article
+magazine

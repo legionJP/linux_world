@@ -1,0 +1,9 @@
+5 dog
+
+4 cow
+
+1 cat
+
+2 elephant
+
+3 bird
