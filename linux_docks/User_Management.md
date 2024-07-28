@@ -17,13 +17,14 @@ bin:*:17737:0:99999:7:::
 > bin:*:17737:0:99999:7:::
 
 > [!TIP]
-> Helpful advice for doing things better or more easily.
+> Helpful tips will share soon
 
 > [!IMPORTANT]
-> Key information users need to know to achieve their goal.
+> will share/write soon
+
 
 > [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
+>  will share/write when applicable
 
 > [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
+> will share/write when applicable
