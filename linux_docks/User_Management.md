@@ -2,12 +2,18 @@
 jp@jp:~$ cat /etc/shadow 
 cat: /etc/shadow: Permission denied
 
-**Running the command as root**
-' ' ' 
+Some basic Git commands are:
+
+```
 jp@jp:~$ sudo cat /etc/shadow 
 root:<SNIP>:18395:0:99999:7:::
 daemon:*:17737:0:99999:7:::
 bin:*:17737:0:99999:7:::
+```
+
+**Running the command as root**
+' ' ' 
+
 ' ' '
 
 <SNIP>'''
