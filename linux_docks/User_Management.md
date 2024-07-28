@@ -15,29 +15,29 @@ Command	Description
 ```diff
 1.
 +Sudo
-! Execute Command as a root user
+# Execute Command as a root user
 2.
 + su
-! The su utility requests appropriate user credentials via PAM and switches to that user ID (the default 
-  user is the superuser
+# The su utility requests appropriate user credentials via PAM and switches to that user ID
+  the default user is the superuser
 3.
 + useradd
-! Creates a new user or update default new user information
+# Creates a new user or update default new user information
 4.
 + userdel
-! Deletes a user account and related files.
+# Deletes a user account and related files.
 5.
 + usermod
-! Modifies a user account.
+# Modifies a user account.
 6.
 + addgroup
-!	Adds a group to the system.
+# Adds a group to the system.
 7.
-+ delgroup
-!	Removes a group from the system.
++ delgroup 
+# Removes a group from the system.
 8.
 + passwd
-!	Changes user password.
+# Changes user password.
 
 ```
 
