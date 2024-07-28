@@ -12,8 +12,10 @@ daemon:*:17737:0:99999:7:::
 bin:*:17737:0:99999:7:::
 ```
 Command	Description
-
+```
+diff
 +Sudo 
+```
 > Execute command as a different user.
 
 > [!NOTE]
