@@ -12,9 +12,15 @@ daemon:*:17737:0:99999:7:::
 bin:*:17737:0:99999:7:::
 ```
 Command	Description
-```
-diff
+```diff
 +Sudo 
+```
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
 ```
 > Execute command as a different user.
 
