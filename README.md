@@ -1,7 +1,7 @@
-#Strat Your Linux Journey!  
-#Learn Linux From Right Now.
+# Strat Your Linux Journey!
+# Learn Linux From Right Now.
 
-Start your linux Journey with this interactive notes and commands snippets with explanations, 
+<h3>Start your Linux Journey with the interactive notes and commands snippets with explanations: </h3>
 
 **Topic Details**, Go through the each topics 
 
