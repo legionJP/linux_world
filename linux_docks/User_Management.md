@@ -19,7 +19,7 @@ Command	Description
 2.
 + su
 # The su utility requests appropriate user credentials via PAM and switches to that user ID
-  the default user is the superuser
+#  the default user is the superuser
 3.
 + useradd
 # Creates a new user or update default new user information
