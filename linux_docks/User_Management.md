@@ -13,7 +13,8 @@ bin:*:17737:0:99999:7:::
 ```
 Command	Description
 ```diff
-+Sudo 
++Sudo
+> Execute Command as a root user
 ```
 ```diff
 - text in red
@@ -22,11 +23,7 @@ Command	Description
 # text in gray
 @@ text in purple (and bold)@@
 ```
-> Execute command as a different user.
-
-> [!NOTE]
-> THE 
-	
+ 
 
 su	The su utility requests appropriate user credentials via PAM and switches to that user ID (the default user is the superuser). A shell is then executed.
 useradd	Creates a new user or update default new user information.
