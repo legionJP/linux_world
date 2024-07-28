@@ -11,7 +11,7 @@ root:<SNIP>:18395:0:99999:7:::
 daemon:*:17737:0:99999:7:::
 bin:*:17737:0:99999:7:::
 ```
-$\color{Blue}{Command Description}$
+$\color{Blue}{Command-Description}$
 ```diff
 1.
 + Sudo 
