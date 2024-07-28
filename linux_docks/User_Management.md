@@ -1,22 +1,16 @@
-***Running command as User***
+***Running command as User:***
+```
 jp@jp:~$ cat /etc/shadow 
 cat: /etc/shadow: Permission denied
+ ```
 
-Some basic Git commands are:
-
+**Running the command as root:**
 ```
 jp@jp:~$ sudo cat /etc/shadow 
 root:<SNIP>:18395:0:99999:7:::
 daemon:*:17737:0:99999:7:::
 bin:*:17737:0:99999:7:::
 ```
-
-**Running the command as root**
-' ' ' 
-
-' ' '
-
-<SNIP>'''
 
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
