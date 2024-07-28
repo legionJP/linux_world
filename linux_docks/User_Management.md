@@ -1,6 +1,6 @@
 ```diff
 -***Running command as User:***
-```
+
 ```
 jp@jp:~$ cat /etc/shadow 
 cat: /etc/shadow: Permission denied
