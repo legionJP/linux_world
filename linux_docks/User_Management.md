@@ -11,11 +11,11 @@ root:<SNIP>:18395:0:99999:7:::
 daemon:*:17737:0:99999:7:::
 bin:*:17737:0:99999:7:::
 ```
+$\color{green}{test}$
 Command	Description
 ```diff
 1.
-+Sudo
-$\color{green}{test}$
++ Sudo 
 # Execute Command as a root user
 2.
 + su
