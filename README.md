@@ -1,4 +1,5 @@
-# Learn Linux 
+#Strat Your Linux Journey!  
+#Learn Linux From Right Now.
 
 Start your linux Journey with this interactive notes and commands snippets with explanations, 
 
@@ -8,6 +9,7 @@ Start your linux Journey with this interactive notes and commands snippets with 
 
 [2. Linux File_System_Management](linux_docks/File_System_Management.md)
 <br>
+
 [3.  Linux Permission Management ](linux_docks/Permission_Management.md)
 <br>
 
