@@ -14,7 +14,7 @@ bin:*:17737:0:99999:7:::
 Command	Description
 ```diff
 +Sudo
-> Execute Command as a root user
+! Execute Command as a root user
 ```
 ```diff
 - text in red
