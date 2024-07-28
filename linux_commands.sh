@@ -3,14 +3,14 @@
 #--------------
 # 1. The Shell :
 #-------------
-
+#the 
 # shell is basically a program that takes your commands from the keyboard 
 # and sends them to the operating system to perform.
 
 #-------
 #Bash:
 #-------
-
+#bash is shell ...
 # the shell program bash (Bourne Again shell), almost all Linux distributions will default to the bash shell
 # other shells available such as ksh, zsh, tsch.
 
