@@ -1,14 +1,10 @@
-diff
--***Running command as User:***
+***Running command as User:***
 
 ```
 jp@jp:~$ cat /etc/shadow 
 cat: /etc/shadow: Permission denied
  ```
-
-```diff
 -**Running the command as root:**
-```
 ```
 jp@jp:~$ sudo cat /etc/shadow 
 root:<SNIP>:18395:0:99999:7:::
