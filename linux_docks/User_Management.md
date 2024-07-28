@@ -13,7 +13,6 @@ bin:*:17737:0:99999:7:::
 ```
 Command	Description
 
-![#f03c15] 
 +Sudo 
 > Execute command as a different user.
 
