@@ -15,6 +15,7 @@ Command	Description
 ```diff
 1.
 +Sudo
+$\color{green}{test}$
 # Execute Command as a root user
 2.
 + su
