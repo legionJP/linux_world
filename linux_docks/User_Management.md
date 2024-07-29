@@ -14,7 +14,7 @@ bin:*:17737:0:99999:7:::
 $\color{Blue}{Command-Description}$
 ```diff
 1.
-+ Sudo 
++ 'Sudo' 
 # Execute Command as a root user
 2.
 + su
@@ -51,8 +51,6 @@ $\color{Blue}{Command-Description}$
 ```
  
 
-su. A shell is then executed.
-useradd	Creates a new user or update default new user information.
 
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
