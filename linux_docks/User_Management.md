@@ -1,6 +1,7 @@
-#User Management in Linux:
+# User Management in Linux:
 ```
 Linux is the Multiuser system ....
+To manage the users there are several command for the usermanagement let's deep dive into them one by one:
 ```
 
 -***Running command as User:***
@@ -16,6 +17,9 @@ root:<SNIP>:18395:0:99999:7:::
 daemon:*:17737:0:99999:7:::
 bin:*:17737:0:99999:7:::
 ```
+1. 
+$\color{Green}{useradd}$
+
 $\color{Blue}{Command-Description}$
 ```diff
 1.
