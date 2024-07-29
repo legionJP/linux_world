@@ -1,3 +1,8 @@
+#User Management in Linux:
+```
+Linux is the Multiuser system ....
+```
+
 -***Running command as User:***
 
 ```
@@ -14,29 +19,29 @@ bin:*:17737:0:99999:7:::
 $\color{Blue}{Command-Description}$
 ```diff
 1.
-+ 'Sudo' 
++ 'sudo' 
 # Execute Command as a root user
 2.
-+ su
++ 'su'
 # The su utility requests appropriate user credentials via PAM and switches to that user ID
 #  the default user is the superuser
 3.
-+ useradd
++ 'useradd'
 # Creates a new user or update default new user information
 4.
-+ userdel
++ 'userdel'
 # Deletes a user account and related files.
 5.
-+ usermod
++ 'usermod'
 # Modifies a user account.
 6.
-+ addgroup
++ 'addgroup'
 # Adds a group to the system.
 7.
-+ delgroup 
++ 'delgroup' 
 # Removes a group from the system.
 8.
-+ passwd
++ 'passwd'
 # Changes user password.
 
 ```
