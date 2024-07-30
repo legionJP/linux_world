@@ -25,6 +25,7 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   4547.9 avail Mem
  
 ### Procees table Section
 ```
+PID     USER     PR  NI  VIRT    RES    SHR    S %CPU  %MEM  TIME+     COMMAND                 
 2265    jp       20  0   4880568 284688 125648 S 3.0   3.5   1:23.58   gnome-shell                              
 3760    jp       20  0   554472  53048  40836  S 1.0   0.7   0:06.25   gnome-terminal-                          
 10918   jp       20  0   1157.8g 249176 128800 S 1.0   3.1   0:40.02   msedge                                   
