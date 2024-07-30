@@ -1,9 +1,10 @@
  # Troubleshooting Commands
 
-### Statics Section
  ```diff
 +TOP
 ```
+#### Statics Section
+
 ```
 top - 15:42:01 up 32 min,  1 user,  load average: 0.72, 0.62, 0.85
 Tasks: 273 total,   1 running, 272 sleeping,   0 stopped,   0 zombie
