@@ -20,9 +20,17 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   4547.9 avail Mem
 > 2. Tasks: 274 total,   1 running, 273 sleeping,   0 stopped,   0 zombie----(for zombie/child processes please go through the [Linux_Processes_Management](linux_docks/Linux_Processes_Management)) <br>
 > 3. us = user space(where program run), sy = kernel space(system) , ni = niceness(Priority value of process), id = idleness of the cpu <br>
 > 4. wa = waiting for I/O of processes ,hi = H/W interrupts , si = S/W interrupts , st = how much time VirtualCPU is waiting for Physical CPU. <br>
-> 5. MiB Mem: memory information, MiB Swap: memory located in hardrive.
+> 5. MiB Mem: memory information, MiB Swap: memory located in hard drive.
 > 
  
+### Procees table Section
+```-
+> [!NOTE]
+> #Process Table Section: <br>
+> 1. Type (shift+P), it will short the process on the basis of  high CPU Usages. <br>
+> 2. Type (shift+P), it will short the process on the basis of  memory Usages. <br>
+> 3. 
+```
 
 > [!TIP]
 > Helpful advice for doing things better or more easily.
