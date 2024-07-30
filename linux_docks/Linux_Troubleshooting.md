@@ -61,6 +61,6 @@ PID     USER     PR  NI  VIRT    RES    SHR    S %CPU  %MEM  TIME+     COMMAND
 > [!TIP]
 > 1. Top updates it's display after every 3 seconds , You can change  the  display by Pressing the 'D':<br>
 > 2. Change delay from 3.0 to _1___, it will updated for every sec.<br>
-> 3. Low CPU usages can be problems in some cases like when the cpu is idle most of the time<br>
+> 3. Low CPU usages also can be problems in some cases like when the cpu is idle most of the time<br>
 
 
