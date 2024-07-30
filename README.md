@@ -13,4 +13,4 @@
     <br>
 4. [Linux Pacakage Management ](linux_docks/Pacakge_Management.md)
    <br>
-5. [Troubleshooting Command Linux](linux_docks/Linux_Troubleshooting.md)
+5. [Linux Troubleshooting Command](linux_docks/Linux_Troubleshooting.md)
