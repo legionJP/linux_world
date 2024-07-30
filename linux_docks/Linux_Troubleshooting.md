@@ -44,17 +44,24 @@ PID     USER     PR  NI  VIRT    RES    SHR    S %CPU  %MEM  TIME+     COMMAND
 > #Process Table Section: <br>
 > 1. Type (shift+P), it will short the process on the basis of  high CPU Usages. <br>
 > 2. Type (shift+P), it will short the process on the basis of  memory Usages. <br>
-> 3. 
-
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
+> 3. If process is taking too many resources and become frozen than press 'K': <br>
+> 4. it will show the: '"PID to signal/kill [default pid = 11384] 'Type pid' " and process will be killed.<br>
 
 > [!IMPORTANT]
-> Key information users need to know to achieve their goal.
+> Press 'Ecs' to get out of the prompt every time. <br> 
 
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
+> [!TIP]
+> Top updates it's display after every 3 seconds , You can change  the  display by Pressing the 'D':<br>
+> Change delay from 3.0 to _1___, it will updated for every sec.<br>
+> Low CPU usages can be problems in some cases like when the cpu is idle most of the time<br>
 
+> [!NOTE]
+> #Statics  Section: <br>
+> 5. 'PR' =Priority number for the ideleness  <br>
+> 6.  'Swap' : it should not being overly utilized , It is used in the place of memory so means the memory already over utilized.
+> 'htop' can be used in the place of 'top', but when the system can't go online than there is need of top if htop is not installed
+
+
+ 
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
