@@ -2,6 +2,8 @@
 
  ```diff
 +TOP
+
+top is a task manager or system monitor program, 
 ```
 ### Statics Section
 
@@ -46,9 +48,10 @@ PID     USER     PR  NI  VIRT    RES    SHR    S %CPU  %MEM  TIME+     COMMAND
 > [!NOTE]
 > #### Process Table Section: <br>
 > 1. Type (shift+P), it will short the process on the basis of  high CPU Usages. <br>
-> 2. Type (shift+M), it will short the process on the basis of  memory Usages. <br>
+> 2. Type 'm', it will short the process on the basis of  memory Usages. <br>
 > 3. If process is taking too many resources and become frozen than press 'k': <br>
 > 4. it will show the: '"PID to signal/kill [default pid = 11384] 'Type pid' " and process will be killed.<br>
+>5. Press 'u' , it will asks the user to type in and the processes will be shorted on the basis of Users
 
 > [!IMPORTANT]
 > Press 'Ecs' to get out of the prompt every time. <br> 
