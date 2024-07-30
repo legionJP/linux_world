@@ -51,17 +51,14 @@ PID     USER     PR  NI  VIRT    RES    SHR    S %CPU  %MEM  TIME+     COMMAND
 > Press 'Ecs' to get out of the prompt every time. <br> 
 
 > [!TIP]
-> Top updates it's display after every 3 seconds , You can change  the  display by Pressing the 'D':<br>
-> Change delay from 3.0 to _1___, it will updated for every sec.<br>
-> Low CPU usages can be problems in some cases like when the cpu is idle most of the time<br>
+> 1. Top updates it's display after every 3 seconds , You can change  the  display by Pressing the 'D':<br>
+> 2. Change delay from 3.0 to _1___, it will updated for every sec.<br>
+> 3. Low CPU usages can be problems in some cases like when the cpu is idle most of the time<br>
 
 > [!NOTE]
 > #Statics  Section: <br>
 > 5. 'PR' =Priority number for the ideleness  <br>
 > 6.  'Swap' : it should not being overly utilized , It is used in the place of memory so means the memory already over utilized.
-> 'htop' can be used in the place of 'top', but when the system can't go online than there is need of top if htop is not installed
+> 'htop' can be used in the place of 'top', but when the system can't go online than there is need of top if htop is not installed.
 
 
- 
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
