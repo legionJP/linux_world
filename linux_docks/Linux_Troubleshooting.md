@@ -15,7 +15,7 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   4547.9 avail Mem
 ```
  
 > [!NOTE]
-> #Statics Section: <br>
+> #Statics Section 1: <br>
 > 1. Load Average: If you have the 1 core cpu and load average is 1, means it is using the 100% cpu. <br>
 > 2. Tasks: 274 total,   1 running, 273 sleeping,   0 stopped,   0 zombie----(for zombie/child processes please go through the [Linux_Processes_Management](linux_docks/Linux_Processes_Management)) <br>
 > 3. us = user space(where program run), sy = kernel space(system) , ni = niceness(Priority value of process), id = idleness of the cpu <br>
@@ -56,7 +56,7 @@ PID     USER     PR  NI  VIRT    RES    SHR    S %CPU  %MEM  TIME+     COMMAND
 > 3. Low CPU usages can be problems in some cases like when the cpu is idle most of the time<br>
 
 > [!NOTE]
-> #Statics  Section: <br>
+> #Statics  Section 2: <br>
 > 5. 'PR' =Priority number for the ideleness  <br>
 > 6.  'Swap' : it should not being overly utilized , It is used in the place of memory so means the memory already over utilized.
 > 'htop' can be used in the place of 'top', but when the system can't go online than there is need of top if htop is not installed.
