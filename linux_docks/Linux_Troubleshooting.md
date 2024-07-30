@@ -21,7 +21,10 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   4547.9 avail Mem
 > 3. us = user space(where program run), sy = kernel space(system) , ni = niceness(Priority value of process), id = idleness of the cpu <br>
 > 4. wa = waiting for I/O of processes ,hi = H/W interrupts , si = S/W interrupts , st = how much time VirtualCPU is waiting for Physical CPU. <br>
 > 5. MiB Mem: memory information, MiB Swap: memory located in hard drive.
-> 
+> 6. 'PR' =Priority number for the ideleness  <br>
+> 7.  'Swap' : it should not being overly utilized , It is used in the place of memory so means the memory already over utilized. <br>
+> 'htop' can be used in the place of 'top', but when the system can't go online than there is need of top if htop is not installed. <br>
+
  
 ### Procees table Section
 ```
@@ -54,11 +57,5 @@ PID     USER     PR  NI  VIRT    RES    SHR    S %CPU  %MEM  TIME+     COMMAND
 > 1. Top updates it's display after every 3 seconds , You can change  the  display by Pressing the 'D':<br>
 > 2. Change delay from 3.0 to _1___, it will updated for every sec.<br>
 > 3. Low CPU usages can be problems in some cases like when the cpu is idle most of the time<br>
-
-> [!NOTE]
-> #### Statics  Section 2: <br>
-> 5. 'PR' =Priority number for the ideleness  <br>
-> 6.  'Swap' : it should not being overly utilized , It is used in the place of memory so means the memory already over utilized.
-> 'htop' can be used in the place of 'top', but when the system can't go online than there is need of top if htop is not installed.
 
 
