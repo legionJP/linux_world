@@ -24,13 +24,27 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   4547.9 avail Mem
 > 
  
 ### Procees table Section
-```-
+```
+2265    jp       20  0   4880568 284688 125648 S 3.0   3.5   1:23.58   gnome-shell                              
+3760    jp       20  0   554472  53048  40836  S 1.0   0.7   0:06.25   gnome-terminal-                          
+10918   jp       20  0   1157.8g 249176 128800 S 1.0   3.1   0:40.02   msedge                                   
+16      root     20  0   0       0      0      I 0.3   0.0   0:03.23   rcu_preempt                              
+660     root     20  0   1429100 61184  21504  S 0.3   0.8   0:09.96   warp-svc                                 
+5591    jp       20  0   32.5g   112404 84248  S 0.3   1.4   0:09.03   msedge                                   
+10227   jp       20  0   1157.8g 170052 79496  S 0.3   2.1   0:05.27   msedge                                   
+1       root     20  0   166756  11464  8008   S 0.0   0.1   0:01.06   systemd                                  
+2       root     20  0   0       0      0      S 0.0   0.0   0:00.00   kthreadd                                 
+3       root     0   -20 0       0      0      I 0.0   0.0   0:00.00   rcu_gp                                   
+4       root     0   -20 0       0      0      I 0.0   0.0   0:00.00   rcu_par_gp                               
+5       root     0   -20 0       0      0      I 0.0   0.0   0:00.00   slub_flushwq  
+```
+
 > [!NOTE]
 > #Process Table Section: <br>
 > 1. Type (shift+P), it will short the process on the basis of  high CPU Usages. <br>
 > 2. Type (shift+P), it will short the process on the basis of  memory Usages. <br>
 > 3. 
-```
+
 
 > [!TIP]
 > Helpful advice for doing things better or more easily.
