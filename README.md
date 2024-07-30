@@ -12,3 +12,5 @@
 3. [Linux Permission Management ](linux_docks/Permission_Management.md)
     <br>
 4. [Linux Pacakage Management ](linux_docks/Pacakge_Management.md)
+   <br>
+5. [Troubleshooting Command Linux](linux_docks/Linux_Troubleshooting.md)
