@@ -1,5 +1,6 @@
  # Troubleshooting Commands
 
+### Statics Section
  ```diff
 +TOP
 ```
