@@ -30,7 +30,7 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   4547.9 avail Mem
 > [!IMPORTANT]
 > Press 'Ecs' to get out of the prompt every time. <br> 
  
-### Procees table Section
+### Process table Section
 ```
 PID     USER     PR  NI  VIRT    RES    SHR    S %CPU  %MEM  TIME+     COMMAND                 
 2265    user1       20  0   4880568 284688 125648 S 3.0   3.5   1:23.58   gnome-shell                              
