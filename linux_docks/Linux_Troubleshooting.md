@@ -47,7 +47,7 @@ PID     USER     PR  NI  VIRT    RES    SHR    S %CPU  %MEM  TIME+     COMMAND
 > #### Process Table Section: <br>
 > 1. Type (shift+P), it will short the process on the basis of  high CPU Usages. <br>
 > 2. Type (shift+M), it will short the process on the basis of  memory Usages. <br>
-> 3. If process is taking too many resources and become frozen than press 'K': <br>
+> 3. If process is taking too many resources and become frozen than press 'k': <br>
 > 4. it will show the: '"PID to signal/kill [default pid = 11384] 'Type pid' " and process will be killed.<br>
 
 > [!IMPORTANT]
