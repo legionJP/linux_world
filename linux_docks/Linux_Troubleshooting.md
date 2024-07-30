@@ -27,6 +27,8 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   4547.9 avail Mem
 > 7.  'Swap' : it should not being overly utilized , It is used in the place of memory so means the memory already over utilized. <br>
 > 'htop' can be used in the place of 'top', but when the system can't go online than there is need of top if htop is not installed. <br>
 
+> [!IMPORTANT]
+> Press 'Ecs' to get out of the prompt every time. <br> 
  
 ### Procees table Section
 ```
