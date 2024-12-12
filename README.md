@@ -14,3 +14,11 @@
 4. [Linux Pacakage Management ](linux_docks/Pacakge_Management.md)
    <br>
 5. [Linux Troubleshooting Command](linux_docks/Linux_Troubleshooting.md)
+
+6. [Linux Bash/Shell Scripting](Bash_Scripting/)
+    - [File manupulation](Bash_Scripting/file_operation.sh)
+    -[String Manupulation ](/linux_world/Bash_Scripting/String_Manipulation.sh
+    )
+    -[Conditionals in Bash ](/linux_world/Bash_Scripting/ifelse.sh)
+    -[ Operators in Bash ](/linux_world/Bash_Scripting/Operators.sh)
+    -[Functions in Bash ](/linux_world/Bash_Scripting/func_Script.sh)
