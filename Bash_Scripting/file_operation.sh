@@ -58,8 +58,8 @@ echo Good Bye!
 # -------------------------------------------------#
 # Testing the file
 # -------------------------------------------------#
-
-if [ -x /etc/passwd ]; then
+# if [ -x /etc/passwd ]; then
+if [ -f /etc/passwd ]; then
         echo file is executable
         # ACTION
 fi
