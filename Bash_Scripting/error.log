@@ -1,0 +1,4 @@
+debug.sh: line 5: syntax error near unexpected token `('
+debug.sh: line 5: `    sum=(($sum+$1))'
+debug.sh: line 6: syntax error near unexpected token `done'
+debug.sh: line 6: `done'
