@@ -13,3 +13,9 @@ echo sum of number form 1 to n is: 'n*(n+1)/2'
 
 echo Result of sum = $(( ($j*($j+1))/2))
 exit 0
+
+# for j in {1..10}
+# do
+#     sum=$(( $sum +$j))
+# done
+# echo The sum is: $sum
