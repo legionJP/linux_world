@@ -14,5 +14,3 @@ read $name
 
 echo "$name-$RANDOM"
 exit 0
-
-#
