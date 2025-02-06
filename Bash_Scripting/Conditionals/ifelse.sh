@@ -18,3 +18,15 @@ else
         echo Forget it $name1, you are  not a Beatle
 
 fi
+
+# Script 2
+echo Give ur Name
+read name1
+
+if [ "$name1" = "JP" ];
+then
+        echo hello $name1
+elif 
+        echo "Invalid User Name"
+fi
+     
