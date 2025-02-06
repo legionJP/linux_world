@@ -61,21 +61,3 @@ $\color{Blue}{Command-Description}$
 @@ text in purple (and bold)@@
 ```
  
-
-
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
- 
-
-> [!TIP]
-> Helpful tips will share soon
-
-> [!IMPORTANT]
-> will share/write soon
-
-
-> [!WARNING]
->  will share/write when applicable
-
-> [!CAUTION]
-> will share/write when applicable
