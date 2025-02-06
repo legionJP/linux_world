@@ -5,7 +5,7 @@
 #-------------
 #the 
 # shell is basically a program that takes your commands from the keyboard 
-# and sends them to the operating system to perform.
+# and sends them to the operating system to perform. it is interpreter.
 
 #-------
 #Bash:
@@ -200,6 +200,7 @@ cp myfile /home/jp/Documents
 # use wildcards. A wildcard is a character that can be substituted for a pattern based selection,
 
 cp * .jpg /home/jp/Pictures 
+cp * .patients /homejp/backup
 
 # copy all files with the .jpg extension in your current directory to the Pictures directory.
 
@@ -271,6 +272,8 @@ mkdir notes books
 
 mkdir -p notes/books/favorites
 
+mkdir -p notes/books/favorites
+
 #-----------------------
 # 13. rm (Remove)
 #------------------------
@@ -310,6 +313,8 @@ find /home -name image.jpg
 # You can specify what type of file you are trying to find.
 # I’m trying to find as (d) for directory and I’m still searching by the name of MyFolder.
 find /home -type d -name Linux_Repo
+
+find /home -type d -name myrepo
 
 
 #-----------------------

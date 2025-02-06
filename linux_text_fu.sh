@@ -91,7 +91,7 @@ ls /fake/directory 2> /dev/null
  #allows us to get the stdout of a command and make that the stdin to another process. 
 
 ls -la \etc  
-#list of the  items but difficult ot read
+#list of the  items but difficult to read
 
 ls -la /etc | less
 

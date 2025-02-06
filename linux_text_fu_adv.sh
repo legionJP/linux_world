@@ -9,7 +9,8 @@
 #-----------------------------------------------------------------
 
 stringfield="sally sells seashells 
-by the seashore"   #there should be no spaces around the = operator when declaring a variable in shell scripting.
+by the seashore"  
+ #there should be no spaces around the = operator when declaring a variable in shell scripting.
 # you can then access the value of the string variable
 echo $stringfield
 
@@ -18,6 +19,7 @@ echo $stringfield
 #++++++++++++++++++++++++++++++++++
 #Using the regex in stringfield
 
+# ^ptexts , jptexts$
 ^by 
 #this would match "by the seashore"
 
@@ -34,6 +36,7 @@ seashore$
 
 b.
 #would match by 
+
 
 ================================
 #  4. Bracket notation with []
